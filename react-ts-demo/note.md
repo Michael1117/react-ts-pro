@@ -32,3 +32,4 @@ commitlint
 
 
 npx husky add .husky/commit-msg 'npx --no --commitlint --edit ${1}'
+npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
