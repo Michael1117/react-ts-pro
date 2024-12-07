@@ -25,3 +25,12 @@ npm run prepare
 npx husky add .husky/pre-commit "npm run lint"
 npx husky add .husky/pre-commit "npm run format"
 npx husky add .husky/pre-commit "git add ."
+
+
+https://commitlint.js.org/guides/getting-started
+commitlint
+
+
+
+npm i -D @commitlint/cli@17 @commitlint/config-conventional@17
+npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'

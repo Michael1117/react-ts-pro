@@ -59,9 +59,9 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "lint": "eslint \"src/**/*.+(js|ts|jsx|tsx)\"",
+    "lint": " eslint \"src/**/*.+(js|ts|jsx|tsx)\" ",
     "lint:fix": "eslint --fix",
-    "format": "prettier --write \"src/**/*.+(js|ts|jsx|tsx)\"",
+    "format": " prettier --write \"src/**/*.+(js|ts|jsx|tsx)\" ",
     "prepare": "husky install"
   },
   "eslintConfig": {
